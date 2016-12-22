@@ -75,9 +75,7 @@ public class Main {
 	                }
 	            });
             }
-
-
-
+            
             for (Container container : containers) {
                 container.start();
                 logger.info("Dubbo " + container.getClass().getSimpleName() + " started!");
